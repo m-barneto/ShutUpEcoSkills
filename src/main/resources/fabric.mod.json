@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "shutupecoskills",
+  "version": "${version}",
+  "name": "ShutUpEcoSkills",
+  "description": "Mutes the experience gain noise, this does also mute it when youre absorbing normal xp though.",
+  "authors": [
+    "Mattdokn"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ShutUpEcoSkills/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.mattdokn.shutupecoskills.ShutUpEcoSkillsClient"
+    ]
+  },
+  "mixins": [
+    "ShutUpEcoSkills.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
